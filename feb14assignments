@@ -1,0 +1,10 @@
+n = int(input("enter number:"))
+i = 0
+while(n>0):
+i = i+1
+n = n/10
+print("the number of digits in the number are:",i)
+
+output:
+enter number:35675
+the number of digits in the number are:5
